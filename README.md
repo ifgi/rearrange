@@ -2,9 +2,9 @@
 
 ###Contains:
 R files:
-* rearrange  contains rearrange_flatten() to  flatten an array. 
-* example_PCA  reproduce figure 2(a,b,c) of the paper _Multidimensional arrays for analysing big geoscientific data"_
-* fijiscidb  SciDB codes for the study case.
+* rearrange.R:  contains rearrange_flatten() to  flatten an array. 
+* example_PCA.R:  reproduce figure 2(a,b,c) of the paper _Multidimensional arrays for analysing big geoscientific data"_
+* fijiscidb.R:  SciDB codes for the study case.
 
 Rdata:
 * fijisub.Rdata: the small sub-array of fiji array. the longitude and latitude are flattened into one dimension. The arry size is (259* 150*6), which corresponds to (number of pixels*time*spectral bands)
