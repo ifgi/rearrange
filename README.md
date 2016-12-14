@@ -7,7 +7,7 @@ R files:
 * fijiscidb.R:  SciDB codes for the study case.
 
 Rdata:
-* fijisub.Rdata: the small sub-array of fiji array. the longitude and latitude are flattened into one dimension. The arry size is (259* 150*6), which corresponds to (number of pixels*time*spectral bands). The "fijisub" in paper refers to this array after removing images with too few pixels. 
+* fijisub.Rdata: the small sub-array of fiji array. the longitude and latitude are flattened into one dimension. The arry size is (259*150*6), which corresponds to (number of pixels*time*spectral bands). The "fijisub" in paper refers to this array after removing images with too few pixels. 
 
 ```r
 dim(fijisub)
