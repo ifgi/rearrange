@@ -1,6 +1,6 @@
 # array rearrange
 
-Contains:
+###Contains:
 R files
 * rearrange  contains rearrange_flatten() to  flatten an array. 
 * example_PCA  reproduce figure 2(a,b,c) of the paper _Multidimensional arrays for analysing big geoscientific data"_
